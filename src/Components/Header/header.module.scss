@@ -1,0 +1,47 @@
+.headerWrapper {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .headerSpanWrapperLivedune {
+    padding-left: 60px;
+    color: red;
+    font-weight: 700;
+    @media (max-width: 320px) {
+      padding-left: 10px;
+    }
+  }
+
+  .headerWrapperButtonSpan {
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 60px;
+    @media (max-width: 320px) {
+      padding-right: 40px;
+    }
+
+    .headerSpanAccont {
+      color: gray;
+      cursor: pointer;
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    .headerButtonCheckIn {
+        height: 43px;
+        width: 145px;
+        color: white;
+        background-color: #5b43d6;
+        padding: 12px 30px;
+        border-radius: 30px;
+        border: 2px solid #5b43d6;
+        outline: none;
+        cursor: pointer;
+    }
+  }
+}
